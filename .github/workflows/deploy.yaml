@@ -30,4 +30,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: ./build
-          force_orphan: true     # wipes old files so only build is deployed
+          force_orphan: true  
+             # wipes old files so only build is deployed
